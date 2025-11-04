@@ -1,0 +1,42 @@
+.parent{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.top{
+    margin-top: 10%;
+}
+.child
+{
+    
+   background-color: bisque;
+   width: 240px;
+   padding: 20px;
+
+}
+.box{
+    width: 30%px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    width: 90px;
+    border-color: aliceblue;
+    margin-left: 150px;
+}
+
+a{
+    color: blue;
+}
+
+.margin{
+    margin-top: 20px
+    
+}
