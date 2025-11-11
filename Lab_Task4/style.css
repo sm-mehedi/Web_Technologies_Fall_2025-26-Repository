@@ -13,7 +13,7 @@ footer{
 }
 
 body{
-    background-color: rgb(71, 52, 114);
+    background-color: rgb(72, 79, 88);
 }
 .row{
      display: flex;
@@ -50,7 +50,7 @@ img{
 }
 h2{
     color: aliceblue;
-    align-items: center;
+    text-align: center;
 }
 button {
  appearance: button;
@@ -114,4 +114,11 @@ button:active:after {
 
 button:active {
  padding-bottom: 10px;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+span{
+    color: aliceblue;
 }
