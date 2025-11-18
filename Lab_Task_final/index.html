@@ -73,7 +73,7 @@
         }
 
         if (company.length > 100) {
-            document.getElementById('company_check').innerHTML = 'Company name must be not more than 100 characters.';
+            document.getElementById('company_check').innerHTML = 'Company name must be not more 100 characters.';
             valid = false;
         } else {
             document.getElementById('company_check').innerHTML = '';
@@ -95,7 +95,6 @@
 
         updateStats();
 
-        alert("Registration Successful!");
     }
 
     function updateStats() {
