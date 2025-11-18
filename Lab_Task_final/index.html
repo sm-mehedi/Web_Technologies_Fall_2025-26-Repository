@@ -15,15 +15,15 @@
    
     
     <label>Full Name <span>*</span></label>
-    <input type="text" id="name">
+    <input type="text" id="name" placeholder="Full Name">
     <p id="Name_warning"></p>
 
     <label>Professional Email <span>*</span></label>
-    <input type="email" id="email">
+    <input type="email" id="email" placeholder="Professional Email">
     <p id="email_warning"></p>
 
     <label>Company / Institution</label>
-    <input type="text" id="company_value">
+    <input type="text" id="company_value" placeholder="Company Name">
     <p id="company_check"></p>
 
     <label>Would you attend in Virtual or In-person? <span>*</span></label>
@@ -73,7 +73,7 @@
         }
 
         if (company.length > 100) {
-            document.getElementById('company_check').innerHTML = 'Company name must be under 100 characters.';
+            document.getElementById('company_check').innerHTML = 'Company name must be not more than 100 characters.';
             valid = false;
         } else {
             document.getElementById('company_check').innerHTML = '';
