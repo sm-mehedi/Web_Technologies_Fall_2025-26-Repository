@@ -18,6 +18,8 @@ label {
             padding: 15px; 
             border: 1px solid #333; 
             display: none;
+            background: greenyellow;
+            border-radius: 10px;
      }
     button { 
             margin-top: 20px;
