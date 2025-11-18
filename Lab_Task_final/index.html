@@ -5,23 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Registration</title>
+    <link rel="stylesheet" href="stylesheet.css">
 
-    <style>
-        body { font-family: Arial; padding: 20px; }
-        label { display: block; margin-top: 15px; }
-        span { color: red; }
-        p { color: red; margin: 5px 0 0 0; font-size: 14px; }
-        #statsPanel { 
-            margin-top: 20px; 
-            padding: 15px; 
-            border: 1px solid #333; 
-            display: none;
-        }
-        button { margin-top: 20px; }
-    </style>
+   
 </head>
 <body>
-
+<div class="design">
+    <h1>Registration Form</h1>
+   
+    
     <label>Full Name <span>*</span></label>
     <input type="text" id="name">
     <p id="Name_warning"></p>
@@ -51,6 +43,7 @@
         <p>In-Person: <span id="inPersonCount">0</span></p>
     </div>
 
+</div>
 
 <script>
     let total = 0;
